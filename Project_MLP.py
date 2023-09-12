@@ -12,10 +12,8 @@ glass_name = glass_data.iloc[:, -1:]
 print(glass_data)
 print(glass_name)
 print()
+
 # #Impartire in Train si test
-
-
-
 x_train, x_test, y_train, y_test = train_test_split(glass_Data, glass_name, test_size = 0.25)
 print(x_train.shape)
 print()
